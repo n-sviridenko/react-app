@@ -21,8 +21,8 @@ function createAbortableSaga(saga) {
   return saga;
 }
 
-export function startSagas(sagaMiddleware) {
-  sagas.map(createAbortableSaga).forEach((saga) => sagaMiddleware.run(saga));
+export function startSagas(store) {
+  sagas.map(createAbortableSaga).forEach((saga) => store.runSaga(saga));
 }
 
 export function cancelSagas(store) {

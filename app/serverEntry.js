@@ -21,6 +21,7 @@ import createRoutes from 'routes';
 
 import { AppRoot, HtmlDocument } from 'components/Core';
 import { setLocale } from 'store/actions/global';
+import { startSagas } from 'store/sagas';
 
 import syncHistoryWithStore from 'setup/syncHistoryWithStore';
 import monitorSagas from 'utils/monitorSagas';
@@ -93,6 +94,8 @@ function renderAppToStringAtLocation(url, { webpackDllNames = [], assets, lang, 
   const routes = createRoutes(store);
 
   const sagasDone = monitorSagas(store);
+
+  startSagas(store);
 
   store.dispatch(setLocale(lang));
 
