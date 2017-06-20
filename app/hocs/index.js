@@ -1,0 +1,1 @@
+export withRouteValidator from './withRouteValidator';

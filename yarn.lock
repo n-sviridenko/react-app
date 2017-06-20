@@ -4630,6 +4630,10 @@ jodid25519@^1.0.0:
   dependencies:
     jsbn "~0.1.0"
 
+joi-browser@^10.0.6:
+  version "10.0.6"
+  resolved "https://registry.yarnpkg.com/joi-browser/-/joi-browser-10.0.6.tgz#2079c3fd845a886fc7ec5ce7c3f57422fbbdaa05"
+
 jpegtran-bin@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/jpegtran-bin/-/jpegtran-bin-3.2.0.tgz#f60ecf4ae999c0bdad2e9fbcdf2b6f0981e7a29b"

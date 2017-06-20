@@ -236,6 +236,7 @@
     "invariant": "2.2.2",
     "ip": "1.1.4",
     "isomorphic-fetch": "2.2.1",
+    "joi-browser": "^10.0.6",
     "lodash": "4.17.4",
     "material-ui": "^0.18.1",
     "minimist": "1.2.0",
