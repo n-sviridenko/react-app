@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
+import configureStore from 'store';
 import AppRoot from './AppRoot';
-import configureStore from './../../store';
 
 describe('<AppRoot />', () => {
   it('uses redux Provider', () => {

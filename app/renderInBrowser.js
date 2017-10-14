@@ -5,7 +5,7 @@ import applyRouterMiddleware from 'react-router/lib/applyRouterMiddleware';
 import Router from 'react-router/lib/Router';
 import useScroll from 'react-router-scroll/lib/useScroll';
 
-import { AppRoot } from 'components/Core';
+import AppRoot from 'components/Core/AppRoot';
 
 export default function renderInBrowser({ messages, store, routes, history }) {
   match({ history, routes }, (error, redirectLocation, renderProps) => {

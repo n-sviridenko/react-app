@@ -19,7 +19,8 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import createStore from 'store';
 import createRoutes from 'routes';
 
-import { AppRoot, HtmlDocument } from 'components/Core';
+import AppRoot from 'components/Core/AppRoot';
+import HtmlDocument from 'components/Core/HtmlDocument';
 import { setLocale } from 'store/actions/global';
 import { startSagas } from 'store/sagas';
 

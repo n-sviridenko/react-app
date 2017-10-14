@@ -1,11 +1,11 @@
 import React from 'react';
 
-import LocaleToggle from 'containers/LocaleToggle';
+import LocaleToggleContainer from 'containers/LocaleToggleContainer';
 
 function Sidebar() {
   return (
     <div className="p-3">
-      <LocaleToggle />
+      <LocaleToggleContainer />
     </div>
   );
 }

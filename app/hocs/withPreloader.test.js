@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { fromJS } from 'immutable';
 
-import { LoadingOverlay } from 'components/Common';
+import LoadingOverlay from 'components/Common/LoadingOverlay';
 import withPreloader from './withPreloader';
 
 describe('withPreloader', () => {

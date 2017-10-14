@@ -10,7 +10,7 @@ import { match } from 'react-router';
 import { renderToString, renderToStaticMarkup } from 'react-dom/server';
 import Helmet from 'react-helmet';
 
-import { AppRoot } from 'components/Core';
+import AppRoot from 'components/Core/AppRoot';
 
 import styleSheet from 'styled-components/lib/models/StyleSheet';
 

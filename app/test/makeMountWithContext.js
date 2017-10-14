@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import { AppRoot } from 'components/Core';
+import AppRoot from 'components/Core/AppRoot';
 
 export default function makeMountWithContext(store, messages = {}, muiOptions = {}) {
   return function mountWithContext(children) {
